@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">TrustAudio mark</title>
+  <desc id="desc">A shield enclosing an audio waveform.</desc>
+  <rect width="128" height="128" rx="24" fill="#0f766e"/>
+  <path d="M64 18 101 32v28c0 25-14 43-37 52-23-9-37-27-37-52V32l37-14Z" fill="#ffffff"/>
+  <path d="M64 28 91 38v23c0 17-9 30-27 38-18-8-27-21-27-38V38l27-10Z" fill="#e9f7f5"/>
+  <path d="M30 67h14l7-20 13 40 11-55 9 35h14" fill="none" stroke="#c84f31" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="7" fill="#0f766e"/>
+</svg>
