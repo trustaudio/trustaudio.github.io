@@ -101,24 +101,20 @@ a:hover {
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
-  background:
-    linear-gradient(90deg, rgba(15, 118, 110, 0.13), transparent 34%),
-    linear-gradient(135deg, #ffffff 0%, #f4f7fb 55%, #fff7f3 100%);
+  background: #eef5fb url("background.png") center / cover no-repeat;
 }
 
-.hero::after {
+.hero::before {
   position: absolute;
-  right: -5vw;
-  bottom: -120px;
-  width: min(54vw, 640px);
-  height: 330px;
-  background:
-    linear-gradient(90deg, transparent 0 4%, rgba(15, 118, 110, 0.16) 4% 5%, transparent 5% 9%),
-    linear-gradient(0deg, transparent 0 48%, rgba(200, 79, 49, 0.32) 48% 52%, transparent 52%);
-  background-size: 42px 100%, 100% 40px;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.96) 0%,
+    rgba(255, 255, 255, 0.91) 48%,
+    rgba(255, 255, 255, 0.73) 72%,
+    rgba(255, 255, 255, 0.48) 100%
+  );
   content: "";
-  opacity: 0.55;
-  transform: rotate(-8deg);
 }
 
 .hero-inner {
@@ -443,6 +439,19 @@ h3 {
   .fact-panel {
     align-self: start;
   }
+
+  .hero {
+    background-position: 52% center;
+  }
+
+  .hero::before {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.9) 62%,
+      rgba(255, 255, 255, 0.78) 100%
+    );
+  }
 }
 
 @media (max-width: 540px) {
@@ -452,10 +461,6 @@ h3 {
 
   .nav-links a {
     padding: 0.38rem 0.52rem;
-  }
-
-  .hero::after {
-    display: none;
   }
 
   h1 {
