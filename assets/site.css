@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 7rem;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -419,6 +423,10 @@ h3 {
 }
 
 @media (max-width: 840px) {
+  html {
+    scroll-padding-top: 13rem;
+  }
+
   .nav {
     align-items: flex-start;
     flex-direction: column;
