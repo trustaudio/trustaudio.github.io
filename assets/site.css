@@ -385,6 +385,32 @@ h3 {
   font-weight: 650;
 }
 
+.speaker-header {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.speaker-header .name {
+  margin-bottom: 0.75rem;
+}
+
+.speaker-header p {
+  margin: 0;
+}
+
+.speaker-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  object-fit: cover;
+}
+
 .callout {
   background: #fff7ed;
   border: 1px solid #f3c89e;
@@ -463,6 +489,11 @@ h3 {
 }
 
 @media (max-width: 540px) {
+  .speaker-header {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
   .nav {
     width: min(100% - 20px, 1180px);
   }
