@@ -7,7 +7,7 @@ Privacy-Preserving Speech and Audio AI.
 
 - `index.html`: homepage
 - `assets/`: shared CSS and site mark
-- `call-for-papers/`, `dates/`, `program/`, etc.: one folder per public page
+- `call-for-papers/`, `dates/`, `program/`, `speakers/`, etc.: one folder per public page
 
 Each page folder contains an `index.html`, so GitHub Pages serves clean URLs such
 as `/program/` and `/organizers/`.
