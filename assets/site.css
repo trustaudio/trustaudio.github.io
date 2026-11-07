@@ -370,6 +370,41 @@ h3 {
   text-transform: uppercase;
 }
 
+.schedule-table th:first-child {
+  width: 10rem;
+}
+
+.schedule-table th:nth-child(2) {
+  width: 15rem;
+}
+
+.schedule-table td:first-child {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.presentation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.presentation-list li + li {
+  margin-top: 1rem;
+}
+
+.presentation-time {
+  display: block;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.talk-title {
+  display: block;
+  margin-top: 0.35rem;
+}
+
 .person-card {
   display: grid;
   gap: 0.45rem;
