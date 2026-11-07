@@ -400,6 +400,13 @@ h3 {
   font-variant-numeric: tabular-nums;
 }
 
+.paper-authors {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
 .talk-title {
   display: block;
   margin-top: 0.35rem;
